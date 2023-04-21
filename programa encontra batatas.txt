@@ -1,0 +1,4 @@
+f = open ("C:/ficheiro.txt", read)
+for lines in f.lines()
+if string.contains(line, "batatas")
+Print("found batatas")
