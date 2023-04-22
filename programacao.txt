@@ -1,0 +1,19 @@
+temperatura = input
+visibilidade = input
+def calor(temperatura, visibilidade):
+    if temperatura < 30:
+      print("Esta fresco")
+    if visibilidade < 50:
+      print("ve se mal")
+    else:
+      print ("esta calor e vesse bem")
+
+def roupa (temperatura, visibilidade):
+    if temperatura < 25:
+        print("veste o casado")
+    if visibilidade < 50:
+        print("os oculos de sol nao sao precisos")
+    else:
+        print("nao e preciso casaco mas sim oculos")
+
+Print("Este programa python e fixe")
