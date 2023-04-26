@@ -1,0 +1,20 @@
+var1 = int(input("temperatura"))
+var2 = int(input("visibilidade"))
+   
+def calor(var1, var2):
+  return
+if var1 < 40:
+  print("Esta fresco")
+elif var2 > 40:
+  print("Esta calor")
+else:
+  print("esta calor e vesse bem")
+
+def roupa(var1, var2):
+   return
+if var1 < 40:
+  print("os oculos de sol nao sao precisos")
+elif var2 < 50:
+  print("nao e preciso oculos")
+else:
+  print("nao e preciso casaco mas sim oculos")
